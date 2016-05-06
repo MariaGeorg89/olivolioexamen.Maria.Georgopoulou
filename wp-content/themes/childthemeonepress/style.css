@@ -1,0 +1,290 @@
+/*
+ Theme Name:   OnePress Child
+ Theme URI:    https://www.famethemes.com
+ Description:  OnePress sample child theme
+ Author:       FameThemes
+ Author URI:   https://www.famethemes.com
+ Template:     onepress
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  onepress-child
+*/
+
+
+
+/*FrontPage*/
+/*woocommerce*/
+/*logga*/
+/**Header*/
+/*footer*/
+/*responsive*/
+
+
+/*product front-page*/
+
+.img-width{
+    width: 100%;
+}
+.divider.sm {
+    margin: 36px auto;
+    width: auto;
+    height: 6px;
+    border: none;
+}
+
+.divider {
+    margin: 70px auto;
+    height: 4px;
+    border-top: 1px solid #c5bcb5;
+    border-bottom: 1px solid #c5bcb5;
+    text-align: center;
+    line-height: 0;
+}
+
+.title-firstpage{
+    text-align: center;
+    font-family: 'AkkuratRegular',Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+
+.divider {
+	margin:70px auto;
+	height:4px;
+	border-top:1px solid #c5bcb5;
+	border-bottom:1px solid #c5bcb5;
+	text-align:center;
+    line-height:0;
+}
+	.divider span {
+		font-size:16px;
+		line-height:4px;
+		padding:0 12px;
+        color:#87807c;
+        font-weight:400;
+        text-transform: uppercase;
+	}
+.divider.sm {
+	margin:36px auto;
+	width:auto;
+	height:6px;
+	border:none;
+}
+	.divider.sm span {
+        display:inline-block;
+        line-height:1;
+        padding:0 18px;
+        position:relative;
+        font-weight:500;
+ }
+.divider.sm span:before,
+.divider.sm span:after {
+ display:block;
+  content:'';
+  width:50px;
+  height:1px;
+  position:absolute;
+  top:8px;
+  background:#c5bcb5;
+  left:-50px;
+}
+.divider.sm span:after {
+  left:auto;
+  right:-50px;
+}
+.divider.sm.pagetitle {
+ 	margin:70px auto; 
+ 	
+}
+
+
+p.beskrivning {
+	width:700px;
+	text-align:center;
+	font-size:25px;
+	line-height:35px;
+	letter-spacing:.3px;
+	font-style:italic;
+	margin:0 auto;
+}
+
+.description{
+    margin-bottom: 20px;
+}
+
+
+/*Woocommerce*/
+/*product page img*/
+.woocommerce div.product div.images img{
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.woocommerce ul.products li.product h3 {
+    height: 44px;
+}
+
+.pic-test{
+	padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+    border: 2px solid #c9c39c;
+        -webkit-box-shadow: 0 8px 16px -8px grey;
+       -moz-box-shadow: 0 8px 16px -8px grey;
+            box-shadow: 0 8px 16px -8px grey;
+    text-align: center;
+    position: relative;
+    height: 298px;
+}
+
+
+.posted_in{
+    display:none;
+}
+
+.tagged_as{
+    display:none;
+}
+
+
+#max-width-size{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.img-front{
+        width: 100%;
+    
+    object-fit: cover;
+}
+
+/*hover start sida produkt serie*/
+.pic-test:hover{
+    box-shadow: 0 1px 38px #b3b3b3;
+}
+
+
+/*hover och border produkt kategori*/
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.products{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    border: 2px solid #c9c39c;
+    text-align: center;
+}
+
+li.product:hover{
+    box-shadow: 0 1px 38px #b3b3b3;
+}
+
+.woocommerce ul.products li.product .button{
+    display: none;
+}
+
+.woocommerce ul.products li.product h3{
+    white-space: normal;
+    font-weight: 400;
+    font-family: "Droid Serif";
+    font-style: normal;
+    font-size: 14px;
+    text-transform: none;
+    color: rgb(51, 55, 69);
+
+}
+
+.amount{
+    font-weight: 400;
+    font-family: "Droid Serif";
+    font-style: normal;
+    font-size: 23px;
+    text-transform: none;
+    color: rgb(51, 55, 69);
+}
+
+
+/*logga*/
+.site-branding{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.siteheader{
+   box-shadow: 0 -10px 14px 8px grey;
+}
+
+.page-header{
+    display: none;
+}
+
+.footer-description{
+    list-style-type: none;
+    text-align: -webkit-auto;
+
+}
+
+.site-footer .site-info{
+    text-align: left;
+}
+
+/*footer*/
+.footer-description h2{
+    color: #fff;
+    font-size: 14px!important;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+
+/***responsive***/
+@media screen and (max-width: 1140px){
+
+  #nav-toggle {
+    display: inline-block;
+    position: static !important;
+    margin-right: 12px;
+}
+}
+
+@media screen and (max-width: 767px){
+    p.beskrivning{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 592px){
+
+    .products-front-page{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    p.beskrivning{
+
+        width: 92%;
+        text-align: center;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: .3px;
+        font-style: italic;
+        margin: 0 auto;
+
+    }
+
+    /*footer*/
+    .footer-description{
+        margin-bottom: 20px;
+    }
+
+    .site-header{
+        line-height: 17px !important;
+    }
+
+
+}
